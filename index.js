@@ -6,8 +6,8 @@ require('dotenv').config();
 const app = express();
 
 const config = {
-    channelAccessToken: '69e8910e0356694205464aa88367c0e6',
-    channelSecret: 'yn91FxQvPOyU0WuMSZY7+I67R16cEb1usF4/aa9hre7XzqJwI4EQAdIaLg49NndlWUp32LDHmzsUQGzOuyMY0tlS0c/NG51wHmBcficS99YoRik8TXtXv/+X4q2QnxTzejqADexeiPVUkZX2wJuZpQdB04t89/1O/w1cDnyilFU='
+    channelAccessToken: 'dpCgQdEGIbWJLxet0efql4UWyC2pXjupzEMpcqvk6uWlzKu7kreeSaay0Ghz5cwCWUp32LDHmzsUQGzOuyMY0tlS0c/NG51wHmBcficS99bYwmdtRjZbMWISp3WGdSEXLt+34p+hsHFEmVu4ag9W2AdB04t89/1O/w1cDnyilFU=',
+    channelSecret: '69e8910e0356694205464aa88367c0e6'
 };
 
 const client = new line.Client(config);
